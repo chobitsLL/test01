@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+xsi:schemaLocation="http://www.springframework.org/schema/beans  
+http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">  
+<!-- name中的user可以取别名    scope="prototype" 或singleton="false"可以设置为非单例模式 -->  
+    <bean name="user,user2" class="com.bky.model.User">  
+        <property name="id" value="1"/>  
+        <property name="name" value="tom"/>  
+        <property name="age" value="20"/>  
+        <property name="gender" value="male"/>  
+    </bean>  
+          
+</beans>

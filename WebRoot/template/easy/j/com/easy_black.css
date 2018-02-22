@@ -1,0 +1,18 @@
+﻿@CHARSET "UTF-8";
+/** 主题和颜色 **/
+/** 顶部图片和边框 **/
+.nav-panel{background-image: url("http://jimg.caishen.cn/cdn/easy/black.png");border-color: rgb(13,21,24) !important;}
+/** 菜单组 **/
+.easy-menu .accordion-header{background: rgb(55,60,64);}
+/** 菜单组选中 **/
+.easy-menu .accordion-header:hover,.easy-menu .accordion-header-selected{background: #eb4e00;}
+/** 菜单组字体颜色 **/
+.easy-menu .panel-title,.easy-menu .accordion-header-selected .panel-title{color: white;}
+/** 菜单组边框 **/
+.easy-menu {border: none;border-right: 2px solid rgb(117,125,127);}
+/** 菜单组 背景色 **/
+.easy-menu .accordion,.easy-menu .accordion-body{background-color: rgb(11,19,22);}
+/** 菜单项 背景色 选中色 字体色 **/
+.rightNaviDIV{background-color: transparent;}
+.rightNaviDIV:hover{background-color: #252c2f;}
+.rightNaviDIV a{color: white;}

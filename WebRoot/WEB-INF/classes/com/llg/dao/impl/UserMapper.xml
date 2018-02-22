@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.llg.dao.UserMapper" >
+	 <resultMap id="UserMap" type="com.llg.model.TBLUser" >
+    <id column="FID" property="FID" jdbcType="INTEGER" />
+    <result column="FName" property="FName" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    FID,FName
+  </sql>
+  <select id="getAll" resultMap="UserMap">
+  	SELECT  FID,FName FROM TBLUser
+  </select>
+</mapper>

@@ -1,0 +1,270 @@
+﻿@CHARSET "UTF-8";
+/************* 导航-全局 *************/
+html,body{margin: 0;padding: 0;}
+
+.clearfix{clear: both;}
+
+.panel-header, .panel-body {border-color: #cccccc;}
+
+/** 公共导航 **/
+.nav-panel{height: 80px;border: none;border-bottom-width: 6px;border-bottom-style: solid;}
+
+/** 公共导航logo **/
+.nav-logo{background-image: url("http://jimg.caishen.cn/cdn/easy/logo.png");display:inline-block;float: left;width: 120px;height: 75px;background-repeat: no-repeat;background-position: 20px center;padding-left: 20px;}
+.nav-info{display:inline-block;float: right;height: 75px;padding-right: 10px;}
+.nav-title{display:inline-block;float: left;height: 75px;padding-left : 45px;font-size: 24px;font-weight: 400;color: white;line-height: 75px;}
+.jboot-nav-link,.jboot-nav-name{color: white;line-height: 75px;text-decoration: none;}
+
+
+/** 主题选择框 **/
+.easy-theme{position: fixed;top: 0;right:0;height: 62px;z-index: 99;background-color: white;padding: 0px 5px 10px 10px;}
+.easy-theme-close{width: 100%;height:12px;text-align: right;}
+.easy-theme-close a{color: red;text-decoration: none;line-height: 12px;}
+.easy-theme-body{width: 100%;padding: 15px 15px 0 0;}
+.easy-theme-body span{display:inline-block; width: 16px;height: 16px;cursor: pointer;margin-left: 5px;}
+.easy-theme-default{background-color:rgb(148,192,240);}
+.easy-theme-black{background-color:rgb(107,111,112);}
+.easy-theme-green{background-color:rgb(117,143,97);}
+
+/** 菜单 **/
+.easy-menu .accordion-header{padding-left: 5px;}
+.easy-menu .panel-icon{left:5px;}
+.easy-menu .accordion-header{height:19px;}
+.easy-menu .accordion-header{border: none;border-width: 0px;}
+.easy-menu .accordion-body{width: 208px;min-width: 208px;max-width: 208px;border: none;min-height: 100%;}
+.easy-menu .accordion-header .panel-tool{display: none;}
+.easy-menu .panel-title{line-height: 19px;font-weight: normal;}
+.rightNaviDIV{padding: 5px 5px 5px 10px;height: 15px;text-align: left;}
+.rightNaviDIV a{text-decoration: none;line-height: 12px;}
+
+/** 查询 **/
+.easy-param-header{background: rgb(221,222,224) repeat-x scroll 0 0;border-bottom-width: 0px;height: 19px;}
+.easy-param-header .panel-title{line-height: 19px;}
+.easy-param{width:230px;}
+.easy-param table tr td:nth-child(1){width: 80px;text-align: right;}
+.easy-param table tr td:nth-child(2){width: 110px;}
+.easy-param table tr td input,
+.easy-param table tr td select{width: 110px;}
+.easy-searchbtn{text-align: center;padding: 10px 0;}
+.easy-search{margin-right: 10px;}
+.layout-expand{background-color: #cccccc;}
+
+/** 普通文本框 **/
+.validatebox-text{
+	background-color: #ffffff;
+    border: 1px solid #95b8e7;
+    border-radius: 5px;
+    padding: 3px 2px;
+}
+
+/** 表格 **/
+.easy-grid{border-top-width: 0;}
+.accept{color: #5cb85c;}
+.btn-right{float: right;}
+
+/** 表头编辑 **/
+.easy-column-dlg{max-height: 500px;}
+.easy-group{border: 1px solid #95b8e7;padding: 1px;margin: 2px;}
+.easy-group-close{color: white; float: right;padding-right: 10px;line-height: 20px;cursor: pointer;}
+.easy-column{border: 1px solid #cccccc;margin: 2px;}
+.easy-column-name{background-color:#95b8e7;text-align: center;}
+.easy-column-name input{border: 3px solid #95b8e7;text-align: center;}
+.easy-column-over{border-bottom: 1px solid #000000;}
+.easy-column-title,.easy-column-width,.easy-column-hide,.easy-column-drop{
+	display: inline-block;text-align: center;width: 20%;padding: 0;margin: 0;
+}
+input.easy-column-width{border: 1px solid #cccccc;height: 20px;}
+input.easy-column-hide{margin-top: 3px;}
+
+/** 弹出框 - iframe 去掉滚动条 **/
+.easy-dlg{overflow: hidden;}
+
+/** 表单样式 **/
+/** 弹出表单 正常 **/
+.easy-input-panel{padding-top: 20px;}
+/** 弹出表单 居中 **/
+.easy-input-panel-center{padding-top: 20px;text-align: center;}
+/** 弹出框 居中 **/
+.easy-input-dialog-center{text-align: center;}
+/** 单行表单 - 行 **/
+.easy-input-line{padding: 5px;}
+/** 表单 - 隐藏域 **/
+.easy-input-hide{display: none;}
+
+
+.easy-stock{height: 50px;}
+
+img.showImgDetail{position: absolute;max-height: 300px;}
+/* 红色的文字 */
+.redword{padding:0 3px; color: red;}
+
+.accordion-panel .accordion-header{
+	min-height: 16px;
+	max-height: 16px;
+}
+
+/** 可视化编辑 **/
+.easy-create-item{border:1px dashed black; display: inline-block;position: relative;padding: 3px;}
+.easy-create-input{}
+.easy-create-drop{display: inline-block;width: 50px;height: 20px;position: absolute;top: 0;left: 0;}
+.easy-create-over{border-color: red;background-color: #ffe48d;}
+.easy-create-active{background-color: #ffe48d;}
+
+.table-info{padding-top: 20px;}
+.table-info tr td:first-child{text-align: right;padding: 0 3px;}
+.table-info tr td:last-child{text-align: left;}
+
+/************************* 详情页面 **************************/
+.detailbody{padding: 10px 32px;}
+.detail-inline{line-height: 20px;border-bottom: 1px dashed #c8c8c8;padding: 0 5px;}
+.detail-inline .detail-group {width:200px;max-width:200px;display: inline-block;margin-bottom: 0;vertical-align: middle;}
+.detailbody .col2 {width:400px !important;min-width:400px !important;max-width:400px !important;}
+.detailbody .col3 {width:600px !important;min-width:600px !important;max-width:600px !important;}
+.detailbody .col4 {width:800px !important;min-width:800px !important;max-width:800px !important;}
+.detailbody label.value {color: #787878;display:inline-block;}
+.detailbody label.title{color: #323232;display:inline-block;}
+
+/************************* 上传组件 **************************/
+.jupload-con{padding-top: 3px; padding-bottom: 0px;min-height:19px;white-space: normal;display: inline-block;text-align: left;}
+.jupload-pnl{position:relative;display: inline-block;padding-left: 2px;}
+.jupload-del{position:absolute;background-color:#ff0000;color:#ffffff;width:12px;height:12px;
+border-radius: 6px;display: inline-block;right:0;top:0;cursor: pointer;overflow: hidden;}
+.jupload-del::before {transform: rotate(45deg);}
+.jupload-del::before, .jupload-del::after {background: #eeeeee none repeat scroll 0 0; content: ""; height: 2px;left: 0;
+margin-top: -1px; position: absolute;top: 50%;width: 100%;}
+.jupload-del::after {    transform: rotate(-45deg);}
+.jupload-del:hover::before, .jupload-del:hover::after {background: #1ebcc5 none repeat scroll 0 0;}
+.jupload-img{height: 30px;max-height: 30px;}
+
+/************************* 弹出选择 **************************/
+
+/* 多选时一行显示多条数据 */
+.notinline{
+	margin-left: 0;
+	margin-right: 0;
+}
+/* 多选时一行显示多条数据-每个列的样式 */
+.jboot-combo-col{
+	float: left;
+	min-height: 100px;
+}
+/* 弹出选择 检索框 */
+.jboot-combo-search{
+	width:50%;display:inline-block;font-weight: normal;font-size: 12px;color: #333;
+	border-radius: 5px;border:1px solid #95b8e7;padding: 4px 3px 4px 30px; float:left;
+	background-image: url(img/combo-search.png);background-position: 8px center;background-repeat: no-repeat;
+}
+/*弹出选择内容区域-竖向滚动条*/
+.dayo-combo-panel{width: 100%;padding-top: 5px;}
+/*弹出选择特有样式*/
+.combo-dialog .modal-content{padding:0 15px;}
+/*弹出选择特有样式-标题*/
+.combo-dialog .modal-title{font-size: 24px;font-family: 微软雅黑,Microsoft YaHei;font-weight: bold;margin-top: 23px;}
+/*弹出选择特有样式-关闭按钮*/
+.combo-dialog .close{font-size: 34px;;font-family: 微软雅黑,Microsoft YaHei;color: #000;}
+/*弹出选择特有样式-上虚线*/
+.combo-dialog .modal-header{border-bottom-style: dashed;}
+/*弹出选择特有样式-下虚线*/
+.combo-dialog .modal-footer{border-top-style: dashed;}
+
+/*弹出选择特有样式-按钮*/
+.combo-submit,.combo-cancle,.combo-dialog .modal-footer .btn{color: white;border-radius: 0;font-size: 14px;display: inline-block;width: 120px;padding:0px;border: none;height: 40px;line-height: 40px;}
+/*弹出选择特有样式-消息按钮-小*/
+.combo-dialog .btn-msg{font-size: 12px !important;width: 50px !important;height: 30px !important;line-height: 30px !important;}
+/*弹出选择特有样式-确定按钮*/
+.combo-dialog .combo-submit,.combo-dialog .modal-footer .btn-primary{background-color: #f25807;}
+.combo-dialog .combo-submit:hover,.combo-dialog .modal-footer .btn-primary:hover{background-color: #e35307;}
+/*弹出选择特有样式-取消按钮*/
+.combo-dialog .combo-cancle,.combo-dialog .modal-footer .btn-default{background-color: #c9c9c9;margin-left: 20px !important;}
+.combo-dialog .combo-cancle:hover,.combo-dialog .modal-footer .btn-default:hover{background-color: #e35307;color: white;}
+/*全选*/
+.conbo-checkall{font-size: 14px;font-weight: normal;float:left;margin:0 5px; border:1px solid #fff; display: inline;padding:3px;cursor: pointer;color:#F25807; }
+
+/* 单选和多选按钮样式 */
+.checkbox-c,.radio-c{ border:1px solid #fff; *zoom:1;height: 16px; line-height: 16px; padding:5px; overflow: hidden;white-space: nowrap;font-size: 14px;font-weight: bold;color: #999;text-align: center;}
+/* 单选和多选按钮样式-选中和悬浮 */
+.dayo-combo-panel .checkbox-c:hover, .dayo-combo-panel .radio-c:hover{color: #F25807;cursor: pointer;}
+.combo-active{background-color: #F25807;color: #ffffff !important;}
+/* 无过渡效果 */
+.checkbox-c ins,.radio-c ins{display: none;}
+
+/* 树形数据样式 */
+ul.jboot-tree{
+	list-style: none;
+	padding-left: 16px!important;
+	font-size: 14px;
+}
+/* 树形数据样式 */
+ul.jboot-tree li{
+	list-style: none;
+}
+
+/* 树形数据图标样式 */
+i{display: inline-block;*display: inline;*zoom:1; width: 16px; height: 16px; vertical-align: middle;cursor: pointer;}
+itxt{display: inline-block;*display: inline;*zoom:1; height: 16px; vertical-align: middle;font-size: 12px;}
+
+/* 树形数据选项悬浮样式 */
+div.tree-item:hover {
+	background-color: #5bc0de;color: #fff;cursor: pointer;
+}
+
+/* 树形数据选项选中样式 */
+div.tree-active{
+	background-color: #337ab7 !important;color: #fff;
+}
+
+/* 树形数据各种图标 */
+.tree-expanded {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -18px 0;
+}
+.tree-expanded-hover,.tree-expanded:hover {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -50px 0;
+}
+.tree-collapsed {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll 0 0;
+}
+.tree-collapsed-hover,.tree-collapsed:hover {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -32px 0;
+}
+.tree-lines .tree-expanded, .tree-lines .tree-root-first .tree-expanded {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -144px 0;
+}
+.tree-lines .tree-collapsed, .tree-lines .tree-root-first .tree-collapsed {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -128px 0;
+}
+.tree-lines .tree-node-last .tree-expanded, .tree-lines .tree-root-one .tree-expanded {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -80px 0;
+}
+.tree-lines .tree-node-last .tree-collapsed, .tree-lines .tree-root-one .tree-collapsed {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -64px 0;
+}
+.tree-line {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -176px 0;
+}
+.tree-join {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -192px 0;
+}
+.tree-joinbottom {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -160px 0;
+}
+.tree-folder {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -208px 0;
+}
+.tree-folder-open {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -224px 0;
+}
+.tree-file {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -240px 0;
+}
+.tree-loading {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/loading.gif") no-repeat scroll center center;
+}
+.tree-checkbox0 {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -208px -18px;
+}
+.tree-checkbox1 {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -224px -18px;
+}
+.tree-checkbox2 {
+    background: rgba(0, 0, 0, 0) url("http://1img.caishen.cn/cdn/easy/tree_icons.png") no-repeat scroll -240px -18px;
+}
